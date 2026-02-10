@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>{{ site.Params.description }}</h1>
+<div class="post-list">
+  {{- range (where site.RegularPages "Section" "posts").ByDate.Reverse | first 10 }}
+  <article class="post-entry">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{- with .Description }}
+    <p>{{ . }}</p>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+{{ end }}

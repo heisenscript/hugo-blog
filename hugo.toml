@@ -1,0 +1,21 @@
+baseURL = "https://example.org/"
+title = "My Site"
+languageCode = "en-us"
+
+pagination.pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.parser.attribute]
+  block = true
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  description = "A minimal, themeless Hugo blog"
+  author = "Author Name"
