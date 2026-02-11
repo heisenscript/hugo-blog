@@ -1,4 +1,8 @@
 ---
+title: "GHK-Cu"
+date: 2026-02-09
+description: "GHK-Cu A peptide"
+tags: ["hugo", "peptide"]
 publish: true
 ---
 
