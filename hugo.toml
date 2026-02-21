@@ -1,5 +1,5 @@
-baseURL = "https://example.org/"
-title = "My Site"
+baseURL = "https://heap.zip/"
+title = "The Blog"
 languageCode = "en-us"
 
 pagination.pagerSize = 10
