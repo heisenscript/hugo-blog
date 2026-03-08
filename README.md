@@ -1,1 +1,3 @@
-# My Blog built on Hugo: https://heap.zip/
+# Here's where my thoughts live
+
+https://heap.zip/
